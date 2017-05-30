@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/back_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAllCaps="true"
+        android:text="&lt; BACK"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_gravity="left"
+        android:gravity="left|center_vertical"
+        android:background="@color/black_translucent_background"
+        android:paddingLeft="20dp"
+        android:onClick="back"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "184704117937",
+    "firebase_url": "https://hamilfan-f7dba.firebaseio.com",
+    "project_id": "hamilfan-f7dba",
+    "storage_bucket": "hamilfan-f7dba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184704117937:android:4857529e63cda397",
+        "android_client_info": {
+          "package_name": "com.example.tiara.hamilfan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184704117937-54nbj028ueod4ogj6fta71j33k1hju06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXB94kGR1WuRRglaODChEr5fr1zEWrwZs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tiara.hamilfan">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/hamilton_logo_square"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WhoSaidItActivity"/>
+        <activity android:name=".LyricsMenuActivity"/>
+        <activity android:name=".LyricsActivity"/>
+        <activity android:name=".TwitterActivity"/>
+        <activity android:name=".FactsActivity"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="632ec3ecf7a08b00ead2b9fb8f345acb0b25069a"
+            />
+    </application>
+
+</manifest>
